@@ -1,4 +1,6 @@
 const path = require('path');
+const miniCssExtractPlugin = require('mini-css-extract-plugin');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -13,10 +15,11 @@ module.exports = {
                 // ファイルを検知する
                 use: [
                     {
-                        loader: 'style-loader'
+                        loader: miniCssExtractPlugin.loader,
                     },
+                    // style-loaderはbodyタグにcssを直書きする
                     {
-                        loader: 'css-loader'
+                        loader: 'css-loader',
                     }
                     // ファイルが見つかったらCSS-loader使用する
                     // loaderは下から読み込んでいく
@@ -24,4 +27,10 @@ module.exports = {
             },
         ],
     },
+    plugins: [
+        new miniCssExtractPlugin(),
+        new htmlWebpackPlugin({
+            template: './src/index.html',
+        }),
+    ],
 }
