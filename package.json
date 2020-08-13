@@ -19,6 +19,8 @@
   "homepage": "https://github.com/deruloxxx/webpack_test#readme",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }
