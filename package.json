@@ -11,9 +11,15 @@
     "url": "git+https://github.com/deruloxxx/webpack_test.git"
   },
   "author": "Ryuya Uetake",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/deruloxxx/webpack_test/issues"
   },
-  "homepage": "https://github.com/deruloxxx/webpack_test#readme"
+  "homepage": "https://github.com/deruloxxx/webpack_test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
 }

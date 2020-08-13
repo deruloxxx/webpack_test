@@ -1,0 +1,12 @@
+
+
+file.trimの設定
+file.insertの設定
+code コマンド
+
+git status
+
+git add
+
+git commit
+insert テキスト編集　esc :wq
