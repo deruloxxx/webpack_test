@@ -12,7 +12,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css/,
+                test: /\.(css|sass|scss)/,
                 // ファイルを検知する
                 use: [
                     {
@@ -21,9 +21,12 @@ module.exports = {
                     // style-loaderはbodyタグにcssを直書きする
                     {
                         loader: 'css-loader',
-                    }
+                    },
                     // ファイルが見つかったらCSS-loader使用する
                     // loaderは下から読み込んでいく
+                    {
+                        loader: 'sass-loader',
+                    },
                 ],
             },
             {

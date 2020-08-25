@@ -1,4 +1,15 @@
+.footer {
+  font-size: 24px; }
+
 body {
-    color: blue;
-}
+  color: orange; }
+
+.content {
+  margin-right: 16px; }
+  .content .title, .content .title-lg {
+    font-size: 24px;
+    display: flex;
+    background-color: #fff; }
+  .content .title-lg {
+    font-size: 32px; }
 
