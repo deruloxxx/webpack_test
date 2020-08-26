@@ -1,15 +1,6 @@
-.footer {
-  font-size: 24px; }
+.footer{font-size:24px}body{color:orange}.content{margin-right:16px}.content .title,.content .title-lg{font-size:24px;display:flex;background-color:#fff}.content .title-lg{font-size:32px}
 
-body {
-  color: orange; }
+p[data-v-61755dfd]{color:green}
 
-.content {
-  margin-right: 16px; }
-  .content .title, .content .title-lg {
-    font-size: 24px;
-    display: flex;
-    background-color: #fff; }
-  .content .title-lg {
-    font-size: 32px; }
 
+/*# sourceMappingURL=main.css.map*/
